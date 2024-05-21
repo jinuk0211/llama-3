@@ -1,5 +1,4 @@
-<pre>
-<code>
+```python
 from pathlib import Path
 import tiktoken
 from tiktoken.load import load_tiktoken_bpe
@@ -29,8 +28,7 @@ tokenizer = tiktoken.Encoding(
 )
 
 tokenizer.decode(tokenizer.encode("hello world!"))
-</code>
-</pre>
+```
 
 ```python
 model = torch.load("Meta-Llama-3-8B/consolidated.00.pth")
