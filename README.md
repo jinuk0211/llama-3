@@ -1,5 +1,5 @@
-# llama-3
-'''python
+<pre>
+<code>
 from pathlib import Path
 import tiktoken
 from tiktoken.load import load_tiktoken_bpe
@@ -28,4 +28,6 @@ tokenizer = tiktoken.Encoding(
     special_tokens={token: len(mergeable_ranks) + i for i, token in enumerate(special_tokens)},
 )
 
-tokenizer.decode(tokenizer.encode("hello world!"))'''
+tokenizer.decode(tokenizer.encode("hello world!"))
+</code>
+</pre>
