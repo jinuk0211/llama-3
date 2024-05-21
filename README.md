@@ -31,3 +31,9 @@ tokenizer = tiktoken.Encoding(
 tokenizer.decode(tokenizer.encode("hello world!"))
 </code>
 </pre>
+
+```python
+model = torch.load("Meta-Llama-3-8B/consolidated.00.pth")
+print(json.dumps(list(model.keys())[:20], indent=4))
+```
+```
