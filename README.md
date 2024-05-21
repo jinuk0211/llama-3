@@ -1,3 +1,4 @@
+#llama 3 from scrath 한국어 번역
 ```python
 from pathlib import Path
 import tiktoken
