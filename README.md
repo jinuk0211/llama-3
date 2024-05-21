@@ -1,5 +1,5 @@
 # llama-3
-'''
+'''python
 from pathlib import Path
 import tiktoken
 from tiktoken.load import load_tiktoken_bpe
